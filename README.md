@@ -82,10 +82,15 @@ node server.js
 
 http
 GET /users           → Lista todos os usuários
+
 POST /users          → Cria um novo usuário
+
 GET /users/:id       → Busca um usuário específico
+
 PUT /users/:id       → Atualiza os dados de um usuário
+
 DELETE /users/:id    → Remove um usuário
+
 Todas as rotas foram testadas com o Postman e validam corretamente os dados recebidos/enviados.
 
 📌 Boas Práticas Aplicadas
